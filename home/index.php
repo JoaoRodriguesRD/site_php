@@ -36,18 +36,20 @@
                     <li><a href="">Blog</a></li>
                 </ul>
             </nav>
-            <div class= "clear"></div>
+            <div class="clear"></div>
         </div>
     </header>
 
-    <section class="banner-principal">.
+    <section class="banner-principal">
+        <div class="overlay"></div>
+
         <div class="center">
             <form>
-                <h1>
-                    Me mande um email
-                </h1>
-                <input type="text" name="conteudo" required placeholder="Conteudo do email" />
-                <input type="email" name="email" required placeholder="assunto" />
+                <h2>
+                    Me mande seu email
+                </h2>
+                <input type="text" name="nome" required placeholder="seu nome" />
+                <input type="email" name="email" required placeholder="seu email de envio" />
                 <input type="submit" name="enviar" value="Enviar!" />
             </form>
         </div>
@@ -63,12 +65,15 @@
                 <p>
                     Donec velit mi, interdum non convallis eget, interdum id dolor. Ut dictum sodales orci placerat fringilla. Nulla turpis ex, imperdiet eu ligula a, porttitor blandit lacus. Nam in ultricies augue. Pellentesque ac ultrices nulla. Ut iaculis nec metus ac sodales. Sed faucibus nisi dolor, vel faucibus tellus mattis nec. Maecenas ultricies metus nec mi facilisis efficitur. Pellentesque eget ultricies lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed pulvinar tincidunt neque, in tristique magna. Maecenas pharetra efficitur risus, et pharetra nunc pulvinar sed. Vivamus gravida, lectus vel imperdiet facilisis, sem ligula suscipit metus, id commodo risus nunc in odio. Quisque vehicula suscipit sem ut dapibus. Nam volutpat quam vitae nulla malesuada, nec condimentum ex varius. Sed eu magna commodo, mattis dui quis, pellentesque elit.
                 </p>
+                <p>
+                    Sed pulvinar tincidunt neque, in tristique magna. Maecenas pharetra efficitur risus, et pharetra nunc pulvinar sed. Vivamus gravida, lectus vel imperdiet facilisis, sem ligula suscipit metus, id commodo risus nunc in odio. Quisque vehicula suscipit sem ut dapibus. Nam volutpat quam vitae nulla malesuada, nec condimentum ex varius. Sed eu magna commodo, mattis dui quis, pellentesque elit.
+                </p>
             </div>
 
 
 
             <div class="w50 left">
-                <img src="images/photo.jpg">
+                <img class="center"src="images/photo.jpg">
             </div>
         </div>
         <div class="clear"></div>

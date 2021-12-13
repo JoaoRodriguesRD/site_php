@@ -4,23 +4,36 @@
     box-sizing: border-box;
     font-family: "roboto";
 }
-
+img{
+    width: 100%;
+}
 .center{
     max-width: 1440px;
     padding: 0 2%;
     margin: 0 auto;
 
 }
+/*
+bloco 33.3% - divisao em 3 pequenos blocos
 
+*/
 .w33{
     width: 33.3%;
 
 }
 
+/*
+bloco 50% - divisao em 2 blocos
+
+*/
 .w50{
+    padding: 2px;
     width: 50%;
 }
 
+/*
+toda vez que usar um float(left, right) precisa fazer um clear.
+*/
 .clear{
     clear: both;
 }
@@ -59,4 +72,126 @@ header .logo{
     font-weight: 300;
     text-transform: uppercase;
     color: #F6D8AE;
+}
+
+section.banner-principal{
+    width: 100%;
+    height: 700px;
+    background-image: url('../../images/AlejandroEscamilla.jpg');
+    background-size: cover;
+    position: relative;
+}
+/* cor de fundo do banner */
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.131);
+    z-index: 1;
+}
+
+section.banner-principal form{
+    /*
+    z-index -> modifica a camada da tag
+    */
+    max-width: 500px;
+    z-index: 2;
+    position: absolute;
+    left: 43%;
+    right: 50%;
+    top:50%;
+    /* centralizar o forms com a section (CSS3) */
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+section.banner-principal form h2{
+    color:#F6D8AE;
+    
+    font-weight: 300;
+    font-size: 23px;
+    text-align:center;
+    min-width: 300px;
+}
+
+section.banner-principal form input[type=text]{
+    overflow-wrap: break-word;
+    width: 100%;
+    font-size: 23px;
+    min-width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: #68B0AB;
+}
+
+section.banner-principal form input[type=email]{
+    font-weight: 300;
+    font-size: 23px;
+    text-align:left;
+    min-width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: #68B0AB;
+}
+
+
+section.banner-principal form input[type=submit]{
+    
+    background-color: #68B0AB;
+    color:#F6D8AE;
+    cursor: pointer;
+    border:0;
+
+    border-radius: 9px;
+    font-weight: 300;
+    font-size: 23px;
+    text-align:center;
+    min-width: 300px;
+}
+
+section.descricao{
+    padding: 30px 0;
+
+}
+
+section.descricao h1{
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(24, 24, 24, 1);
+
+}
+section.descricao p{
+    padding: 30px 0;
+    font-size: 16px;
+    color: rgba(24, 24, 24, 1);
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px){
+    nav.desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: none;
+
+    }
+    nav.mobile ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+    
 }
