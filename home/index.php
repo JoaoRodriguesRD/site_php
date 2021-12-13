@@ -29,6 +29,9 @@
                 </ul>
             </nav>
             <nav class="mobile right">
+                <div class="mobile-button">
+                <i class="fas fa-bars"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -79,7 +82,7 @@
         <div class="clear"></div>
     </section>
 
-    <section class="Conteudo">
+    <section class="conteudo">
         <div class="center">
             <h2 class="title">Conteudos</h2>
             <div class="w33 left box-conteudo">

@@ -5,7 +5,8 @@
     font-family: "roboto";
 }
 img{
-    width: 100%;
+    width: 500px;
+
 }
 .center{
     max-width: 1440px;
@@ -151,7 +152,7 @@ section.banner-principal form input[type=submit]{
 }
 
 section.descricao{
-    padding: 30px 0;
+    padding: 60px 0;
 
 }
 
@@ -173,12 +174,44 @@ section.descricao p{
         display: none;
     }
     nav.mobile{
-        display: none;
+        display: block;
 
     }
-    nav.mobile ul{
-        display: none;
+    .mobile-button{
+        color: #F6D8AE;
+        font-size: 23px;
+        cursor: pointer;
     }
+
+    nav.mobile ul{
+        display: top 60px;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        /* display: block; */
+        /* mostrar dinamicamente depois */
+        display: none;
+        text-align: center;
+
+    }
+    nav.mobile li{
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        background:#68B0AB;
+        border-bottom: 1px solid #F6D8AE;
+        font-size: 17px;
+        padding: 8px 0;
+    }
+
+    nav.mobile li a{
+        display: block;
+        color:#F6D8AE;
+        text-decoration: none;
+
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -186,7 +219,7 @@ section.descricao p{
         float: none !important;
         display: block;
         margin: 0 auto;
-        max-width: 500px;
+        
 
     }
     .w50{
@@ -195,3 +228,4 @@ section.descricao p{
     }
     
 }
+
