@@ -30,7 +30,7 @@
             </nav>
             <nav class="mobile right">
                 <div class="mobile-button">
-                <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars"></i>
                 </div>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -76,7 +76,7 @@
 
 
             <div class="w50 left">
-                <img class="center"src="images/photo.jpg">
+                <img class="center" src="images/photo.jpg">
             </div>
         </div>
         <div class="clear"></div>
@@ -84,63 +84,64 @@
 
     <section class="conteudo">
         <div class="center">
-            <h2 class="title">Conteudos</h2>
+            <h1 class="title">Conteudos</h1>
             <div class="w33 left box-conteudo">
-                <h3><i class="fas fa-fish"></i>icone1</h3>
-                <h3>conteudo1</h3>
+                <h3><i class="fas fa-fish"></i></h3>
+                <h3>peixe</h3>
                 <p>Etiam euismod ultricies neque, quis imperdiet diam. Quisque porta est ac lacus eleifend, eget accumsan ipsum convallis.</p>
             </div>
             <div class="w33 left box-conteudo">
-                <h3><i class="fas fa-dog"></i>icone2</h3>
-                <h3>conteudo2</h3>
+                <h3><i class="fas fa-dog"></i></h3>
+                <h3>cachorro</h3>
                 <p>Etiam euismod ultricies neque, quis imperdiet diam. Quisque porta est ac lacus eleifend, eget accumsan ipsum convallis.</p>
             </div>
             <div class="w33 left box-conteudo">
-                <h3><i class="fas fa-cat"></i>icone3</h3>
-                <h3>conteudo3</h3>
+                <h3><i class="fas fa-cat"></i></h3>
+                <h3>gato</h3>
                 <p>Etiam euismod ultricies neque, quis imperdiet diam. Quisque porta est ac lacus eleifend, eget accumsan ipsum convallis.</p>
             </div>
         </div>
+        <div class="clear"></div>
     </section>
 
     <section class="extras">
         <div class="center">
 
-            <div class="w50 left">
+            <div class="w50 left extras-text">
                 <h2 class="title">Extras</h2>
                 <div class="extras-single">
-                    <p class="extras-box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="extras-box-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
                     <p class="extras-subtitle">Lorem ipsum dolor</p>
                 </div>
                 <div class="extras-single">
-                    <p class="extras-box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="extras-box-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
                     <p class="extras-subtitle">Lorem ipsum dolor</p>
                 </div>
                 <div class="extras-single">
-                    <p class="extras-box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="extras-box-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
                     <p class="extras-subtitle">Lorem ipsum dolor</p>
                 </div>
                 <div class="extras-single">
-                    <p class="extras-box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="extras-box-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
                     <p class="extras-subtitle">Lorem ipsum dolor</p>
                 </div>
 
             </div>
 
 
-            <div class="w50 left">
+            <div class="w50 left extras-pointers">
                 <h2 class="title">Pointers</h2>
                 <div class="pointers">
 
                     <ul>
                         <li>
-                            Nam eu egestas augue. Aliquam erat volutpat
+                            Nam eu egestas augue. Aliquam erat volutpat. Nam eu egestas augue. Aliquam erat volutpat. Nam eu egestas augue. Aliquam erat volutpat
                         </li>
                         <li>
-                            Nam eu egestas augue. Aliquam erat volutpat
+                            Nam eu egestas augue. Aliquam erat volutpat. Nam eu egestas augue. Aliquam erat volutpat. Nam eu egestas augue. Aliquam erat volutpat
                         </li>
                         <li>
-                            Nam eu egestas augue. Aliquam erat volutpat
+                            Nam eu egestas augue. Aliquam erat volutpat. Nam eu egestas augue. Aliquam erat volutpat. Nam eu egestas augue. Aliquam erat volutpat
                         </li>
                     </ul>
 

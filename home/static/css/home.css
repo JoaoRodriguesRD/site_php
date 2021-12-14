@@ -169,6 +169,16 @@ section.descricao p{
     margin-top: 10px;
 }
 
+footer{
+    background: #255953;
+    padding: 30px 0;
+}
+footer p{
+    color:antiquewhite;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
 @media screen and (max-width: 700px){
     nav.desktop{
         display: none;
@@ -211,6 +221,7 @@ section.descricao p{
         text-decoration: none;
 
     }
+    
 
 }
 
@@ -226,6 +237,80 @@ section.descricao p{
         padding: 20px;
         width: 100%;
     }
+    .w33{
+        padding: 20px;
+        width: 100%;
+    }
+
     
+}
+
+section.conteudo{
+    padding: 40px;
+    background-color: #F6D8AE;
+    text-align: center;
+}
+section.conteudo h1.title{
+    color: rgb(51, 51, 51);
+    font-size: 39px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.box-conteudo{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-conteudo h3{
+    
+    color: #68B0AB;
+    font-size: 40px;
+}
+.box-conteudo i{
+    
+    color: #255953;
+    font-size: 40px;
+}
+.box-conteudo p{
+    
+    font-size: 16px;
+}
+
+section.extras{
+    padding: 30px 0;
+    background: #68B0AB;
+}
+
+.extras-text,.extras-pointers{
+    padding: 0 2%;
+}
+section.extras .title{
+    color: #F6D8AE;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.extras-single{
+    padding: 15px 0;
+    border-bottom: 1px solid #F6D8AE;
+}
+.extras-box-content{
+    font-size: 16px;
+    color: antiquewhite;
+}
+.extras-subtitle{
+    font-size: 14px;
+    color: #F6D8AE;
+    font-weight: bolder;
+}
+.pointers li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: antiquewhite;
+}
+.pointers ul{
+    margin: 20px 0;
+    list-style-position:inside;
+
 }
 
