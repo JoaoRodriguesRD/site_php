@@ -157,5 +157,7 @@
     </footer>
 
 </body>
+<script src="static/js/jquery.js"></script>
+<script src="static/js/menu.js"></script>
 
 </html>
