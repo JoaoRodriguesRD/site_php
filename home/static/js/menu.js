@@ -3,6 +3,7 @@ $(
         $('nav.mobile').click(
             function(){
                 var menu = $('nav.mobile ul');
+                var icon = $('.mobile-button').find('i');
                 // if(menu.is(':hidden')== true){
                 //     menu.css('display','block');
                 // }else{
@@ -21,7 +22,16 @@ $(
                 //     menu.fadeOut();
                 // }
 
-                menu.slideToggle();
+                //Alterar icone do menu (removendo e adicionando outro icone na tag i do botao)
+                if(menu.is(':hidden')== true){
+                    menu.slideToggle();
+                    icon.removeClass('fas fa-bars');
+                    icon.addClass('fas fa-angle-down');
+                }else{
+                    icon.removeClass('fas fa-angle-down');
+                    icon.addClass('fas fa-bars');
+                    menu.slideToggle();
+                }
             }
         )
     }
