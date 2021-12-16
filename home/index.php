@@ -1,13 +1,14 @@
+<?php include('config.php') ?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Home</title>
 
-    <link href="static/css/all.css" rel="stylesheet">
+    <link href="<?php echo INCLUDE_PATH; ?>static/css/all.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link href="static/css/home.css" rel="stylesheet">
+    <link href="<?php echo INCLUDE_PATH; ?>static/css/home.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="palavras-chave,minha,home,">
     <meta name="description" content="Uma pagina simples do html">
@@ -16,16 +17,23 @@
 </head>
 
 <body>
+
+    <?php
+    if (isset($_GET['url'])) {
+        echo $_GET['url'];
+    }
+
+    ?>
     <header>
         <div class="center">
 
             <div class="logo left">Logomarca</div>
             <nav class="desktop right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>blog">Blog</a></li>
                 </ul>
             </nav>
             <nav class="mobile right">
@@ -33,10 +41,10 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>blog">Blog</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
@@ -76,7 +84,7 @@
 
 
             <div class="w50 left">
-                <img class="center" src="images/photo.jpg">
+                <img class="center" src="<?php echo INCLUDE_PATH; ?>images/photo.jpg">
             </div>
         </div>
         <div class="clear"></div>
@@ -157,7 +165,7 @@
     </footer>
 
 </body>
-<script src="static/js/jquery.js"></script>
-<script src="static/js/menu.js"></script>
+<script src="<?php echo INCLUDE_PATH; ?>static/js/jquery.js"></script>
+<script src="<?php echo INCLUDE_PATH; ?>static/js/menu.js"></script>
 
 </html>
