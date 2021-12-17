@@ -313,3 +313,25 @@ section.extras .title{
 
 }
 
+.contato{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.contato input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: vertical;
+    
+}
+.contato input[type=submit]{
+    background:#68B0AB;
+    font-size: 18px;
+    color:#F6D8AE;
+    width: 25%;
+    border: none;
+    cursor: pointer;
+}
