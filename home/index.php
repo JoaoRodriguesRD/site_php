@@ -53,7 +53,7 @@
     } else {
         if ($url == 'sobre') {
             include('pages/principal.php');
-            echo '<target="sobre" />';
+            echo '<a id="target"></a>';
         } else {
 
             include('pages/error-404.php');

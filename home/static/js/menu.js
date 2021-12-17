@@ -1,7 +1,7 @@
 $(
-    function(){
+    function () {
         $('nav.mobile').click(
-            function(){
+            function () {
                 var menu = $('nav.mobile ul');
                 var icon = $('.mobile-button').find('i');
                 // if(menu.is(':hidden')== true){
@@ -9,7 +9,7 @@ $(
                 // }else{
                 //     menu.css('display','none');
                 // }
-                
+
                 // if(menu.is(':hidden')== true){
                 //     menu.show();
                 // }else{
@@ -23,16 +23,24 @@ $(
                 // }
 
                 //Alterar icone do menu (removendo e adicionando outro icone na tag i do botao)
-                if(menu.is(':hidden')== true){
+                if (menu.is(':hidden') == true) {
                     menu.slideToggle();
                     icon.removeClass('fas fa-bars');
                     icon.addClass('fas fa-angle-down');
-                }else{
+                } else {
                     icon.removeClass('fas fa-angle-down');
                     icon.addClass('fas fa-bars');
                     menu.slideToggle();
                 }
+
             }
-        )
+        );
+        $target = document.getElementById("target");
+        if ($target != null) {
+            var screen = '#' + 'sobre';
+            var scroll = $(screen).offset().top;
+            $('html,body').animate({ 'scrollTop': scroll }, 1000);
+
+        }
     }
 )
