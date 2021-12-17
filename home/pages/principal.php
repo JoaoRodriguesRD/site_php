@@ -4,10 +4,10 @@
         <div class="center">
             <form>
                 <h2>
-                    Me mande seu email
+                    Receba notificação
                 </h2>
                 <input type="text" name="nome" required placeholder="seu nome" />
-                <input type="email" name="email" required placeholder="seu email de envio" />
+                <input type="email" name="email" required placeholder="seu email" />
                 <input type="submit" name="enviar" value="Enviar!" />
             </form>
         </div>
