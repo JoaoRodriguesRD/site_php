@@ -105,7 +105,6 @@ section.banner-principal form{
     top:50%;
     /* centralizar o forms com a section (CSS3) */
     transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
 }
 section.banner-principal form h2{
     color:#F6D8AE;
