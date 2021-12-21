@@ -47,6 +47,7 @@
     </header>
 
     <?php
+    new Email();
     $url = isset($_GET['url']) ? $_GET['url'] : 'principal';
     if (file_exists('pages/' . $url . '.php')) {
         include('pages/' . $url . '.php');
